@@ -9,7 +9,7 @@ var isDark=true;
         isDark=false
     }
     else{
-        document.getElementById("main").className="bg-gray-700 transition duration-1000";
+        document.getElementById("main").className="bg-gray-700 transition-all duration-1000";
         document.getElementById("button").className="rounded-xl cursor-pointer hover:border-blue-400 hover:bg-blue-300 bg-blue-600 p-2 text-white transition-all duration-1000"
         document.getElementsByTagName("h1")[0].innerText="Dark Theme"
         document.getElementsByTagName("h1")[0].className=" text-white transition ease-in-out duration-1000"
