@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./input.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Theme Changer</title>
+</head>
+
+<body class="  bg-gray-700 " id="main" >
+    <nav class="bg-gray-900 text-white z-10 p-2 fixed inset-x-0 backdrop-filter backdrop-blur bg-opacity-50">
+        <div class="text-center text-xl h-10">Color Flipper</div>
+    </nav>
+    <div class="flex flex-col items-center justify-center space-y-10 text-4xl" style="height: 80vh;">
+        <div>
+            <h1 class="text-white">Dark Theme</h1>
+        </div>
+        <div>
+            <button id="button" class="rounded-xl transition-all duration-1000 hover:border-blue-400 hover:bg-blue-300 cursor-pointer bg-blue-600 text-white p-2">Change Theme</button>
+        </div>
+    </div>
+    <script src="ThemeChanger.html"></script>
+</body>
+</html>

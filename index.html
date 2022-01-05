@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./input.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>Theme Changer</title>
-</head>
 
-<body class="  bg-gray-700 " id="main" >
-    <nav class="bg-gray-900 text-white z-10 p-2 fixed inset-x-0 backdrop-filter backdrop-blur bg-opacity-50">
-        <div class="text-center text-xl h-10">Color Flipper</div>
-    </nav>
-    <div class="flex flex-col items-center justify-center space-y-10 text-4xl" style="height: 80vh;">
-        <div>
-            <h1 class="text-white">Dark Theme</h1>
+    <title>Navigation</title>
+</head>
+<body>
+    <div class="grid md:grid-cols-2 md:grid-rows-4 grid-cols-1 gap-10 m-5 font-serif tracking-wide justify-center">
+        <div class="flex flex-col gap-3 drop-shadow-xl justify-center items-center rounded-lg p-3 bg-gray-200">
+            <h1 class="text-xl font-bold">Theme Changer</h1>
+            <p>Just a Simple Theme Flipper</p>
+            <p>Changes Theme from Dark to Light and vice versa</p>
+            <a href="ThemeChanger.html"><button class="bg-indigo-700 hover:drop-shadow-2xl hover:bg-indigo-600 hover:p-2 transition-all ease-in-out rounded-md text-zinc-100 p-1.5 ">Theme Changer</button></a>
         </div>
-        <div>
-            <button id="button" class="rounded-xl transition-all duration-1000 hover:border-blue-400 hover:border-2 hover:bg-blue-300 cursor-pointer bg-blue-600 text-white p-2">Change Theme</button>
+        <div class="flex flex-col gap-3 drop-shadow-xl justify-center items-center rounded-lg p-3 bg-gray-200">
+            <h1 class="text-xl font-bold">Counter</h1>
+            <p>Simple Counter</p>
+            <p>Increases and Decreases and Resets the count upon clicking a Button lorem100</p>
+            <a href="Counter.html"><button class="bg-indigo-700 hover:drop-shadow-2xl hover:bg-indigo-600 hover:p-2 transition-all ease-in-out rounded-md text-zinc-100 p-1.5 ">Counter</button></a>
         </div>
     </div>
-    <script src="test.js"></script>
 </body>
 </html>

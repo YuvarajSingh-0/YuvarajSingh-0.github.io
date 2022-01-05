@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./input.css">
+    <title>Counter</title>
+</head>
+
+<body>
+    <div class="pt-32">
+        <div class="flex flex-col justify-center gap-y-2 items-center">
+            <div class="text-gray-900 font-bold text-8xl">
+                Counter
+            </div>
+            <div id="display_num" class="text-9xl font-bold text-green-800 ">
+                0
+            </div>
+            <div class="flex gap-x-14 items-center mt-8">
+                <button id="decrease" onclick="setValue(-1)"
+                    class="border-[3px] px-2 py-1 border-gray-900 font-mono tracking-[.25em] hover:border-blue-600 hover:rounded-lg rounded-xl ">DECREASE</button>
+                <button id="reset" onclick="setValue(0)"
+                    class="border-[3px] px-2 py-1 border-gray-900 font-mono tracking-[.25em] hover:border-blue-600 hover:rounded-lg rounded-xl ">RESET</button>
+                <button id="increase" onclick="setValue(1)"
+                    class="border-[3px] px-2 py-1 border-gray-900 font-mono tracking-[.25em] hover:border-blue-600 hover:rounded-lg rounded-xl ">INCREASE</button>
+            </div>
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+
+</html>
