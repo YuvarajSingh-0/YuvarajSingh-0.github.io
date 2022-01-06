@@ -1,6 +1,6 @@
 var count=0;
 
-//----------------------EventListener Usage especially in line 8,9-------------------
+//----------------------EventListener Usage especially in line 10,11-------------------
 
 // function setValue(a){
 //     count=count+a;
