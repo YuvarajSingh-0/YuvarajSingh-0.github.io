@@ -509,6 +509,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.5rem;
 }
 
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -536,6 +544,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .items-center {
@@ -664,12 +680,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
-.pt-60 {
-  padding-top: 15rem;
+.pt-72 {
+  padding-top: 18rem;
 }
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
 }
 
 .text-center {
