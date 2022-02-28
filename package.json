@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/YuvarajSingh-0/YuvarajSingh-0.github.io/issues"
   },
-  "homepage": "https://github.com/YuvarajSingh-0/YuvarajSingh-0.github.io#readme"
+  "homepage": "https://github.com/YuvarajSingh-0/YuvarajSingh-0.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "vite": "^2.8.5"
+  }
 }
