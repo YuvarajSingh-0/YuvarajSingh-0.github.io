@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Timer</title>
+</head>
+<body class="bg-yellow-500 tracking-wider">
+    <div class=" pt-48 flex flex-col text-white items-center gap-8">
+        <div class=" text-6xl ">
+            STOPWATCH
+        </div>
+        <div class="text-6xl ">
+            VANILLA JAVASCRIPT STOPWATCH
+        </div>
+        <div id="stopwatch" class="text-3xl">
+            00 : 00
+        </div>
+        <div>
+            <button id="start" class="rounded font-semibold px-12 py-4 mx-2 border-2 transition border-white hover:bg-white hover:text-yellow-500 bg-transparent">
+                Start
+            </button>
+            <button id="stop" class="rounded font-semibold px-12 py-4 mx-2 border-2 transition border-white hover:bg-white hover:text-yellow-500 bg-transparent">
+                Stop
+            </button>
+            <button id="reset" class="rounded font-semibold px-12 py-4 mx-2 border-2 transition border-white hover:bg-white hover:text-yellow-500 bg-transparent">
+                Reset
+            </button>
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
